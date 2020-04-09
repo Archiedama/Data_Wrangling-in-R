@@ -1,10 +1,10 @@
 #Coal consumption
 library(tidyverse)
 #read data
-coal <- read_csv('C:\Users\archi\OneDrive\Documents\R')
+coal <- read_csv('C:/Users/archi/OneDrive/Documents/R/coal.csv')
 view(coal)
 #Removing top two rows from the table
-coal <- read_csv('C:\Users\archi\OneDrive\Documents\R',skip=2)
+coal <- read_csv('C:/Users/archi/OneDrive/Documents/R/coal.csv',skip=2)
 glimpse(coal)
 #Renaming column X1 to region
 colnames(coal)[1] <- 'region'
